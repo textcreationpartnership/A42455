@@ -1,0 +1,831 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Akamaton pyr, or, The dreadful burning of London described in a poem / by J.G.</title>
+            <author>J. G.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1667</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 32 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A42455</idno>
+            <idno type="STC">Wing G31</idno>
+            <idno type="STC">ESTC R30396</idno>
+            <idno type="EEBO-CITATION">11305910</idno>
+            <idno type="OCLC">ocm 11305910</idno>
+            <idno type="VID">47398</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A42455)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47398)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1461:29)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Akamaton pyr, or, The dreadful burning of London described in a poem / by J.G.</title>
+                  <author>J. G.</author>
+               </titleStmt>
+               <extent>[6], 14 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Henry Herringman ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1667.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>First two words of title in Greek characters.</note>
+                  <note>"Licensed May 2, 1667. Roger L'Estrange."</note>
+                  <note>Imperfect: print showthrough with loss of print.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>London (England) --  Fire, 1666 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-06</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2009-06</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:47398:1"/>
+            <pb facs="tcp:47398:1" rendition="simple:additions"/>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> OR, THE Dreadful Burning OF LONDON: Deſcribed in a POEM.</p>
+            <p>BY <hi>J. G.</hi> M. A.</p>
+            <q>
+               <p>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </p>
+               <bibl>
+                  <hi> Dionyſ. Halicarn. d: Rom. Incend. lib.</hi> 5. <hi>p.</hi> 313.</bibl>
+            </q>
+            <p>Licenſed May 2. 1667. <hi>Roger L'Eſtrange.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Henry Herringman,</hi> at the Anchor in the Lower Walk of the <hi>New-Exchange.</hi> 1667.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:47398:2" rendition="simple:additions"/>
+            <pb facs="tcp:47398:2"/>
+            <head>To the Right Worſhipful Sir VVilliam Turner, Knight, and Alderman of the City of LONDON.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>O make your Name preliminary to ſo mean a Pamphlet, created in me as great a doubt, as whether ſo inconſi<g ref="char:EOLhyphen"/>derate a Pen ſhould make an Eſſay upon ſo great a Subject: Yet as the attempt upon the Subject, ſo the boldneſs in its Dedication ſeems not without ſome rea<g ref="char:EOLhyphen"/>ſon; though I might rather have appear'd like pious <hi>Æneas,</hi> in carrying his Father from the Flames of <hi>Troy,</hi> than endeavour to imitate lofty <hi>Maro</hi> in deſcribing them. Yet might thoſe Feet per<g ref="char:EOLhyphen"/>haps which haſtened from the Flames, at the ſame time run into Verſes. I know not why the inſtigation of ſome ſhould be ſo very earneſt in importuning me hereto, knowing me to have trod more upon <hi>Veſuvius</hi> than <hi>Parnaſſus,</hi> unleſs they imagin'd, I might thereupon
+<pb facs="tcp:47398:3"/>write ſenſibly, though not elegantly, on ſuch a Subject of Fire. But the Pen to deſcribe this unparalell'd Fire, ſhould be like its Flames, to ſoar high, and be perſpicuous too; mounting above its own ſmoak, and not to wrap it ſelf up in ſheets of obſcurity: and ſhould be like that of the Eagle, which fans the Clouds, and approaches the Sun. Your great Concern (Sir) as to the ſubject of this <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>m, and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur Rank, as one of the chiefs if that Court, which repreſents out Me<g ref="char:EOLhyphen"/>tropolis, being sheriff thereof not long before its deplorable Ruine, and now deligated as one of thoſe, to order and direct in its re-edify<g ref="char:EOLhyphen"/>ing, might partly occaſion this addreſs to your ſelf, which might not onely affect you with the remembrance of its former State, but excite you in the Contrivance of its future Glory. Now though this Deſcription of ſo ſevere a Providence, may be but as an im<g ref="char:EOLhyphen"/>perfect Draught to you, having (I ſuppoſe) ſeen the thing it ſelf acted; (the aifference being as great, as between painted and real Fire) yet mayit ſerve as a Remembrance to thoſe, who though they felt ſomething of its Effects, yet never ſaw any thing of its Ten<g ref="char:EOLhyphen"/>rours. Who may hereby underſtand, how dreadful this Fire was which, though at firſt stole upon the City in the deepeſt ſilence of the Night, yet did ſoon diſcover it ſelf by its own Splendour; whoſe Flames by their great Light, did ſoon proclaim that Ruine they made by their deſtructive Heat, which ſeem'd, as 'twere chearful in devouring; but as ſoon as they ceaſed to leap and dance at the deſtruction of others, they periſht themſelves. Whence of old the
+<note n="†" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Herod.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>lib.</hi> 3. <hi>p.</hi> 10.</note> Egyptians were perſwaded that Fire was an animated Creature, made onely to destroy, and after ſatiated to dye with the thing devour'd. But the
+<note n="*" place="bottom">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Id.</hi>
+               </note> Perſians proceed farther, and adore it as a God. Such indeed is the dread of this devouring Element, that the Eternal Deity ſometimes condeſcends to the reſem<g ref="char:EOLhyphen"/>blance
+<pb facs="tcp:47398:3"/>of a conſuming Fire, and his teerrours to everlaſting Burn<g ref="char:EOLhyphen"/>ings: and how may we look upon this, as a diſplay of his Juſtice; for whether or no this Fire began by a malitious hand, yet muſt we look upon it as blown up by our Sins. Such kind of malitious Practi<g ref="char:EOLhyphen"/>ces may be traced back as far as Heathen <hi>Rome,</hi> according to that of the Satyriſt,</p>
+            <q>
+               <l>— <hi>Conter</hi>
+               </l>
+               <l>
+                  <hi>Conductum Latronem, Incendia Sulphure cepta,</hi>
+               </l>
+               <l>
+                  <hi>Atquo dolo primos cum janua colligit ignes.</hi>
+               </l>
+               <bibl>Juv. lib. <hi>5.</hi> Sat. <hi>13.</hi>
+               </bibl>
+            </q>
+            <p>Or as another obſerves:</p>
+            <q>
+               <l>— <hi>Candelam apponere valvis</hi>
+               </l>
+               <l>
+                  <hi>Non dubitet.—</hi>
+               </l>
+            </q>
+            <p>This Fire ſeem'd like that in the tails of <hi>Sampſons</hi> Foxes, which burn'd that which ſhould have become others bread: this made many wealthy Citizens become poor Almes-men; whoſe mouths are as open now to ask, at their hands before were to beſtow Charity: whoſe Dwellings being burn'd, and their Trades waſted, are re<g ref="char:EOLhyphen"/>duced as the Pſalmist ſpeaks, to eat aſhes like bread. But I hope the ſingular Care of our Sovereign, and the earneſt Endeavours of our Magiſtrates, for the Re-building this famous City, and for the Reſtoring of our waſte Places, may at the ſame time raiſe <hi>London</hi> out of its Aſhes, and poor Citizens out of the Duſt.</p>
+            <p>Having made a Poetical Attempt in deſcribing the diſmal Ruine of ſo Renown'd a City, I wiſh now I could ſo much farther play the Port, as to be like that <hi>Thracian,</hi> whoſe ſtrains could make confus'd Stones rally into order: Or as <hi>Amphion,</hi> who allur'd them into the Walls of <hi>Thebes:</hi> however might I <hi>vatem agere,</hi> may I rather ſing its approaching Glory, than late Ruine. Eſpecially if the af<g ref="char:EOLhyphen"/>fair of its Re-building continue in part under Your moſt Prudent Care, and I under Your former Favour; the acknowledgement of which, while it now becomes like your Name, publick, yet I hope if I have thereby offended, that the ſame generous diſpoſition that can
+<pb facs="tcp:47398:4"/>ſo freely beſtow a Favour, will as freely pardon a Fault: and what I have do<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e in this Addreſs, that it may be attributed ra<g ref="char:EOLhyphen"/>ther to my Endeavour of becoming grateful, than offenſive: for hence it is, that I deſired to publiſh how much I am, Honoured Sir,</p>
+            <closer>
+               <signed>Your moſt Obliged and Humble Servant, <hi>J. G.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:47398:4"/>
+            <head>—<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> OR <hi>The dreadful Burning of</hi> London.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">W</seg>hile urgent
+<note n="*" place="bottom">
+                     <q>
+                        <hi>—Sopor feſſos complectitur artus.</hi>
+                        <bibl>Virg. Lib. 2.</bibl>
+                     </q>
+                  </note> Sleep our heavy Eyes did clole,</l>
+               <l>And wrapt our mindes up in a ſoft Repoſe;</l>
+               <l>Some glowing Coal, ſilent, and dark as night,</l>
+               <l>Shakes its black Embers off, ſo ſhews its light.</l>
+               <l>Which through ſome narrow room, did gently creep</l>
+               <l>With a ſtill foot, e're it abroad durſt peep.</l>
+               <l>Which will no longer now confined be,</l>
+               <l>But ſteals forth with a kind of ſubtilty.</l>
+               <l>Though on its way, Night had her Poppy ſhed;</l>
+               <l>Yet is reveal'd by its own Light it ſpread:</l>
+               <l>And with a train at laſt in publick goes,</l>
+               <l>And as it marches forward ſtronger grows.</l>
+               <l>Surprizing all before it, as it burns;</l>
+               <l>And to itſelf all oppoſition turns.</l>
+               <l>Nor was its Riſe more ſudden by a blaſte,</l>
+               <l>Than th' Execution which it made in haſte.</l>
+               <l>As an inrag'd Invader ſtraight doth ſpread</l>
+               <l>His bloudy Banners, which ſtill Menace dread,</l>
+               <l>Waſting where e're he comes, whoſe anger burns,</l>
+               <l>And into dreadful Flames the Countrey turns:</l>
+               <l>Which diſmal ruine that he leaves behind,</l>
+               <l>Scarce ſatisfies the fury of his mind.</l>
+               <pb n="2" facs="tcp:47398:5"/>
+               <l>Thus doth this raging Fire lift up its head,</l>
+               <l>And its <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Flames abroad doth ſpread<g ref="char:punc">▪</g>
+               </l>
+               <l>Which as deep midnight no<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> diſturbs ou<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Peace,</l>
+               <l>And by our Ruine do themſelves encreaſe.</l>
+               <l>And as it marcheth, is it trackt alone</l>
+               <l>By the dire footſteps of deſtruction.</l>
+               <l>Weak at the firſt, it humbly crept along,</l>
+               <l>Till higher it aſpir'd, as it grew ſtrong:</l>
+               <l>And to exalted Pyramids doth riſe,</l>
+               <l>Before the clogs of ſleep fall from our eyes.</l>
+               <l>How does the crackling noiſe firſt wound our ear,</l>
+               <l>E're that the dreadful ſight doth urge our fear,</l>
+               <l>No ſooner ſome out of their Beds were gone,</l>
+               <l>But in bright Sheets of Flames their Houſes ſhone:</l>
+               <l>And newly but awake, as now they gaze</l>
+               <l>Upon whole Streets in ſuch a diſmal Blaze:</l>
+               <l>They ſeem as ſtill aſleep, and what they ſee,</l>
+               <l>As ſome dire dream without reality.</l>
+               <l>Such dread makes them their own eyes ſcarce believe,</l>
+               <l>Or to their very Senſes credit give.</l>
+               <l>So much amaz'd they ſtand, orecome with fear,</l>
+               <l>As but unmoving Statues they appear.</l>
+               <l>Thus once <hi>Lot</hi>'s Wife did to a Pillar turn,</l>
+               <l>As ſoon as ſhe beheld her <hi>Sodom</hi> burn.</l>
+               <l>And here, although whole Streets prove but a Prey</l>
+               <l>To hungry Flames, through which they eat their way:</l>
+               <l>How few among ſuch multitudes engage,</l>
+               <l>To check their progreſs, or to quench their rage?</l>
+               <l>So wide they ſpread, and did ſo high aſpire,</l>
+               <l>As if ſank down th' whole Element of Fire:</l>
+               <l>And did to us ſo great a Maze preſent,</l>
+               <l>As if were wrapt in Flames the Firmament.
+<note n="*" place="margin">
+                     <q>Tempus erat quo prima quies, Mortalibus aegris Incipit. <bibl>
+                           <hi>Virg. Æn. 2.</hi>
+                        </bibl>
+                     </q>
+                  </note>
+               </l>
+               <pb n="3" facs="tcp:47398:5"/>
+               <l>Some who this Fire would with reſiſtance meet,</l>
+               <l>By others are
+<note n="*" place="bottom">
+                     <q>
+                        <hi>Pars morans, pars feſtinans, cuncta impediebant.</hi>
+                        <bibl>Tacit. de Rom. Incend</bibl>
+                     </q>
+                  </note> obſtructed in the Street:</l>
+               <l>Who onely ſtriving to ſecure their Goods,</l>
+               <l>Juſtle down thoſe who bring oppoſing Floods.</l>
+               <l>Who laden thus with water, and thrown down</l>
+               <l>Admidſt the Flames, at once both burn and drown.</l>
+               <l>Others their Water-Engins full do bring,</l>
+               <l>Which on the Flames oppoſng ſhowres fling:</l>
+               <l>Whoſe ſtreams with ſuch a force aſcend ſo high,</l>
+               <l>As if they could therewith the Clouds ſupply.</l>
+               <l>The Pipe are cut, and all the
+<note n="†" place="bottom">
+                     <q>
+                        <hi>Reſtringere fontibus ignes.</hi>
+                        <bibl>Virg.</bibl>
+                     </q>
+                  </note> Conduits flow,</l>
+               <l>And on the Fire repeated Flouds men throw.</l>
+               <l>Yet Pyramids of Flames invade the Skies,</l>
+               <l>Whoſe thirſt the watry Clouds could ſcarce ſuffice:</l>
+               <l>But lick their moiſtures up, ſo make them dry,</l>
+               <l>That without water,
+<note n="*" place="bottom">
+                     <q>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> 
+                        <bibl>
+                           <hi>Jud.</hi> 12.</bibl>
+                     </q>
+                  </note> Clouds they ſeem thereby:</l>
+               <l>And none but clouds of ſmoak about us hover;</l>
+               <l>Whoſe ſable wings do th' whole Horizon cover.</l>
+               <l>As the deſtructive Fire doth forward creep,</l>
+               <l>Its ſhining train whole Streets away doth ſweep.</l>
+               <l>Which wandring Flames, loſe and deſtroy their way,</l>
+               <l>And having ruin'd all, themſelves decay.</l>
+               <l>Such ranks of Flames, the chief fire forward leads,</l>
+               <l>Which Hydra-like lifts up a hundred heads.</l>
+               <l>They dance at the leaſt Whiſtle of the Wind,</l>
+               <l>Leaving dire foot ſteps of their rage behind.</l>
+               <l>At laſt ſo boundleſs in their Progreſs, they</l>
+               <l>As uncontroll'd, no limits ſcarce obey.</l>
+               <l>Which thirſty fire the flowing waters drank,</l>
+               <l>And made the very <hi>Thames</hi> ſhrink from its bank:</l>
+               <pb n="4" facs="tcp:47398:6"/>
+               <l>And was ſo hungry too, whole Streets became</l>
+               <l>As fuel but to feed this greedy
+<note n="*" place="bottom">
+                     <q>
+                        <l>
+                           <hi>Ignis edax ſummo ad veſtigia vento</hi>
+                        </l>
+                        <l>
+                           <hi>Volvitur.</hi> —</l>
+                        <bibl>Virg.</bibl>
+                     </q>
+                  </note>: Flame.</l>
+               <l>But as it feeds, it ſtill the more doth crave,</l>
+               <l>Unſatisfy'd, like the devouring Grave.</l>
+               <l>Whole Pariſhes, its rage did but excite,</l>
+               <l>And not appeaſe its wanton appetite.</l>
+               <l>
+                  <hi>Elijah</hi>'s Victim on the Altar fum'd,</l>
+               <l>And by his fire of zeal was ſoon conſum'd:</l>
+               <l>Whoſe rapid Flames, the waters in the trench,</l>
+               <l>Could not by all their ſwelling moiſtures quench;</l>
+               <l>Which could no more their raging thirſt allay,</l>
+               <l>Than th' Holocauſt their hunger take away.</l>
+               <l>Our Altars fume, but not with their own fire;</l>
+               <l>And for a Sacrifice now burns the Quite.</l>
+               <l>Luxuriant Flames made beauteous Piles to be</l>
+               <l>The objects of their wanton cruelty.</l>
+               <l>But as thoſe Flames in ſeveral ranks divide;</l>
+               <l>And as they march, ſtretch o're from ſide to ſide.</l>
+               <l>'Twas as the Pſalmiſt once ſang to his Lyre,</l>
+               <l>The voice of God, divider the flames of fire.</l>
+               <l>The Blaze of two dire Comets did fore-run</l>
+               <l>This ſtream of Flames, which ſhould out-blaze the Sun:</l>
+               <l>Which to the middle Region did aſpire,</l>
+               <l>As if it would convert it to one fire;</l>
+               <l>Or onely to a gen'ral Comet turn,</l>
+               <l>Which might be ſeen by the whole world to burn.</l>
+               <l>Then angry Heaven more direful thunders ſent,</l>
+               <l>Which ſturdy Oaks, and lofty Steeples rent.</l>
+               <l>So <hi>Rome</hi> before its diſmal Fire, did ſee</l>
+               <l>
+                  <note n="†" place="bottom">
+                     <q>
+                        <hi>Vulgantur prodigia, imminentiu<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap> malorum nuntia, vis fulgurum, non alias crebrior, &amp; ſidus cometes.</hi>
+                        <bibl>Tacit. 15. Annal.</bibl>
+                     </q>
+                  </note> Signs, which preſag'd an angry Deity.</l>
+               <pb n="5" facs="tcp:47398:6"/>
+               <l>
+                  <hi>Phoebus</hi> lookt down, and bluſht at ſuch a ſight</l>
+               <l>To be out-ſhone by an inferiour Light:</l>
+               <l>Who ſeem'd not onely red, when firſt he roſe;</l>
+               <l>But ſo remain'd, till he the day did cloſe.</l>
+               <l>And at ſo great a Conflagration ſtood,</l>
+               <l>As at his Solſtice, and ſeem'd turn'd to blood:</l>
+               <l>While up and down th' affrighted people run,</l>
+               <l>As if indeed Dooms-day were now begun.</l>
+               <l>The Sun now fears a <hi>Peregaeum,</hi> while</l>
+               <l>Such clouds of ſmoak his purer light defile:</l>
+               <l>Which though all day, did but eclipſe his light;</l>
+               <l>Yet flames ſupply'd his abſence in the night.</l>
+               <l>And doth fair <hi>Cynthia</hi> ſhrink into her Wain,</l>
+               <l>Leſt ſuch black clouds, her beauty too ſhould ſtain:</l>
+               <l>Draws in her horns, as if her force were ſpent,</l>
+               <l>While Fire o'recomes her liquid Element.</l>
+               <l>Doubting though in the Sea ſhe dipt her horn,</l>
+               <l>So great a fire might all her moiſtureſcorn.</l>
+               <l>Thoſe flames ſo great a light did ſpread, that they</l>
+               <l>Seem'd to recall the new departed day:</l>
+               <l>The leſſer Stars within their ſockets ſhrink,</l>
+               <l>As tender eyes before great light that wink.</l>
+               <l>Which eyes of Heaven, thus twinckle all the night,</l>
+               <l>While ſuch vaſt flames caſt a perſtringent light.</l>
+               <l>Before the Sun, an Eaſtern Wind doth riſe,</l>
+               <l>Which made the flames ſhoot ſparks up to the Skies:</l>
+               <l>Which ſhone ſo bright, as if indeed they ſtrove</l>
+               <l>To adde new lights unto the ſtars above.</l>
+               <l>Cold guſts of wind, theſe ardors more intend;</l>
+               <l>Which make the flames their Ruines forward ſend.</l>
+               <l>The brighteſt of them ruſh tow'rd <hi>Lumbard Street,</hi>
+               </l>
+               <l>And lick up all oppoſing ſtreams they meet:</l>
+               <l>Where they the Jewels, and rich Stones out-ſhine;</l>
+               <l>And do the Gold but once again refine.</l>
+               <pb n="6" facs="tcp:47398:7"/>
+               <l>This Fire which we not only forward trace,</l>
+               <l>Which <hi>Janus</hi> like preſents a double face;</l>
+               <l>And doth not only burn before the wind,</l>
+               <l>But backward ſhoots its flames as far behind.</l>
+               <l>As when a Serpent wreaths his head about,</l>
+               <l>And as he twines, doth ſhoot his fork't ſting out:</l>
+               <l>Whoſe wrigling tail though ſever'd, yet doth threat</l>
+               <l>Still <hi>Parthian</hi> like, to wound in his retreat.</l>
+               <l>Thus though this fiery Serpent cut in twain,</l>
+               <l>Yet ſcarce wounds with his head, more than his train.</l>
+               <l>While it doth toward the <hi>Bridge</hi> now backward turn,</l>
+               <l>To tantalize the Waves, and o're them burn.</l>
+               <l>Doth <hi>Vulcan</hi> againſt <hi>Neptune</hi> ſeem to rage,</l>
+               <l>Who with his Waves could not his ardours ſwage:</l>
+               <l>And threatens too thoſe Ships on th' other ſide,</l>
+               <l>Which <hi>Nereus</hi> ſcarce could reſcue with his tide.</l>
+               <l>Thus when renowned
+<note n="*" place="bottom">
+                     <q>
+                        <l>
+                           <hi>Aemelianus claſſem ſub ipſo ore urbis incendit.</hi>
+                        </l>
+                        <bibl>Flor. lib. 2. c.15.</bibl>
+                        <l>—<hi>Per mania clarior ignis.</hi>
+                        </l>
+                        <bibl>Virg.</bibl>
+                     </q>
+                  </note>
+                  <note n="*" place="bottom">Auditur, propriuſque aeſtus incendia volvunt.</note> 
+                  <hi>Carthage</hi> once was fir'd,</l>
+               <l>By the ſame flames the Navy too expir'd.</l>
+               <l>The <hi>Bridge</hi> thus burning might ſome think the while,</l>
+               <l>'Twas to thoſe trait'rous heads a Funeral-pile:</l>
+               <l>Whoſe aſhes yet like Traytors are deny'd</l>
+               <l>An Urn, while ſwallow'd by the angry Tide.</l>
+               <l>
+                  <hi>Neptune</hi> looks up on this inſulting Fire,</l>
+               <l>Which higher than his Surges doth aſpire:</l>
+               <l>Who with his ſwelling I ides could ſcarce out-roar,</l>
+               <l>Or drown the
+<note n="†" place="bottom">
+                     <q>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> 
+                        <bibl>Hom. II. <gap reason="foreign">
+                              <desc>〈 in non-Latin alphabet 〉</desc>
+                           </gap>.</bibl>
+                     </q>
+                  </note> noiſe they ſent down to the ſhore.</l>
+               <l>The glitt'ring Fiſh in mighty ſhoals now gaze</l>
+               <l>Upon the lightning of ſo great a Blaze:</l>
+               <pb n="7" facs="tcp:47398:7"/>
+               <l>To ſee thoſe Flames of ſuch a large extent,</l>
+               <l>
+                  <note n="*" place="bottom">
+                     <q>—<gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <bibl>Hom.</bibl>
+                     </q>
+                  </note> Out ſhine themſelves, and their own Element.</l>
+               <l>That fervour which they to the River caſt,</l>
+               <l>Might cauſe its very Waves to
+<note n="†" place="bottom">
+                     <q>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>. <bibl>Id.</bibl>
+                     </q>
+                  </note> boil at laſt:</l>
+               <l>So make the Tides more eſtuate than before,</l>
+               <l>Though driven with ſuch a force againſt the ſhore.</l>
+               <l>So
+<note n="*" place="bottom">—<gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> 
+                  <hi>Xanthus</hi> boil'd, while the flames did deſtroy</l>
+               <l>The ſtately Palaces of ancient <hi>Troy.</hi>
+               </l>
+               <l>The leading flames towards the <hi>Burſe Royal</hi> haſte,</l>
+               <l>Where all the Statues of our Kings were plac't:</l>
+               <l>Which the black clouds of ſmoak did firſt infold,</l>
+               <l>E're the rude flames took off their burniſht Gold.</l>
+               <l>Nor could thoſe Royal Statutes be like thoſe,</l>
+               <l>Which from the Capitol repell'd the foes:</l>
+               <l>When the bold <hi>Sabines</hi> did it once aſſail,</l>
+               <l>But could not o're the <hi>Roman</hi> force prevail;</l>
+               <l>When th' ancient Statues in the breach were plac'd,</l>
+               <l>They ſav'd the Tower, but were themſelves defac'd.</l>
+               <l>A ruder flame doth on thoſe Statues prey,</l>
+               <l>Which them doth in the common Ruine lay:</l>
+               <l>And while by unexpected flames they burn,</l>
+               <l>Their noble aſhes ſeem to want an Urn.</l>
+               <l>Yet, burn thoſe Statues not like other things,</l>
+               <l>Which repreſent no leſs than ſacred Kings;</l>
+               <l>But a perfumed flame doth from them riſe,</l>
+               <l>Whoſe ſmoak ſweet Odours ſends up to the Skies:</l>
+               <l>For th' Aromatick Cavern underneath,</l>
+               <l>Doth all the while <hi>Sabaean</hi> Vapours breath.</l>
+               <l>As flames th' <hi>Arabian</hi> Spices thus conſume,</l>
+               <l>They all the circumambient air perfume.</l>
+               <pb n="8" facs="tcp:47398:8"/>
+               <l>Soon may we ſee from this burnt Sacrifice,</l>
+               <l>Or ſpicy bed of flames, a Phoenix riſe.</l>
+               <l>Why ſhould we from ſuch aſhes think it ſtrange,</l>
+               <l>To ſee ſpring up, a more auguſt Exchange.</l>
+               <l>Here did the wealthy Merchants uſe to meet,</l>
+               <l>And Forreign Nations did each other greet:</l>
+               <l>But theſe unruly flames ruſh in among</l>
+               <l>Thoſe Forreigners, to ſpeak their fiery tongue:</l>
+               <l>Which ſpake not ſo obſcurely, but we might</l>
+               <l>See flaming Sheets, their meaning bring to light;</l>
+               <l>Making thoſe very marble Columns burn,</l>
+               <l>And only into fiery Pillars turn.</l>
+               <l>Yet they the gen'rous Founder of the place,</l>
+               <l>Refuſe with awe his Statue to deface:</l>
+               <l>To change his hue, they need not ſend before</l>
+               <l>Their Harbingers of Smoak, to black him more.</l>
+               <l>They hence to <hi>Bow-Church</hi> ſtretch themſelves, where they</l>
+               <l>Its lofty Roof do in the aſhes lay.</l>
+               <l>And having firſt deſtroy'd the ſacred Quire,</l>
+               <l>Up to the ſtately Tower they next aſpire.</l>
+               <l>The Bells before rung backward, did thereby,</l>
+               <l>Some accidental Fire ſtill ſignifie.</l>
+               <l>But when the Churches and the Bellfries burn,</l>
+               <l>The Bells are dumb, and their black towers mouth.</l>
+               <l>What Fire is this, makes the Bells ceaſe to chime?</l>
+               <l>Deſtroyes the Clocks, ſo triumphs over time:</l>
+               <l>Vaſt
+<note n="*" place="bottom">
+                     <q>
+                        <hi>Domus munimentis ſeptae, Templa muris cincta, Delubra Deûm, &amp; Porticus amaenitati dicatae, latius procidere.</hi> 
+                        <bibl>Tacit. 15. Anal.</bibl>
+                     </q>
+                  </note> Halls, nor Temples could theſe Flames repel,</l>
+               <l>Which ruin'd all, where e're their fury fell.</l>
+               <l>Rich Fabricks, once the Glory of our Iſle,</l>
+               <l>Become but now the Cities Funeral Pile.</l>
+               <l>
+                  <hi>Guild Hall,</hi> where the grave Senatours ſtill ſate,</l>
+               <l>When they the City buſineſs did debate;</l>
+               <pb n="9" facs="tcp:47398:8"/>
+               <l>Whoſe Purple Robes did ſuch a ſplendor ſhed,</l>
+               <l>As fill'd thoſe who approacht their Court with dread.</l>
+               <l>Yet the rude Fire doth with its Scarlet Train,</l>
+               <l>Ruſh in among them, and their Robes diſdain:</l>
+               <l>Whoſe flames a greater awe did with them bring,</l>
+               <l>While round about they nought but terrour, fling.</l>
+               <l>But when this Fire, once to the
+<note n="*" place="bottom">
+                     <q>
+                        <hi>
+                           <gap reason="illegible" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> per Tabernas, quibus id mercimonium inerat, quo flamma ali<g ref="char:EOLhyphen"/>tur.</hi> 
+                        <bibl>Tacit. de Rom. Incend.</bibl>
+                     </q>
+                  </note> Taverns came,</l>
+               <l>They quencht it not, but it made them to flame.</l>
+               <l>And when abroad Torrents of burnt wine guſh,</l>
+               <l>Incenſed <hi>Bacchus</hi> doth at <hi>Vulcan</hi> bluſh.</l>
+               <l>Cold guſts of winde theſe ardours more intend,</l>
+               <l>And make the flames their Ruines forward ſend.</l>
+               <l>As with a ſtrong breath <hi>Boreas</hi> ſometimes blow,</l>
+               <l>When to the Clouds he angry Surges throws:</l>
+               <l>And ſo makes <hi>Neptune,</hi> Heaven it ſelf defie,</l>
+               <l>By ſpitting in the face of th' azur'd Skie.</l>
+               <l>Thus here with ſuch a breath, he ſeems to drive</l>
+               <l>Unruly flames, which toward the Heavens now ſtrive,</l>
+               <l>
+                  <hi>Sion,</hi> where ſacred Learning did encreaſe,</l>
+               <l>While th' Arts and Sciences dwelt there in peace:</l>
+               <l>And where the ſacred Muſes did inſpire</l>
+               <l>The Sons of Learning, with diviner Fire;</l>
+               <l>Yet cannot with their Fountain <hi>Helicon,</hi>
+               </l>
+               <l>Quench this unhallowed Conflagration:</l>
+               <l>But here the <hi>Criticks</hi> burn with flames ſo bright,</l>
+               <l>As give th' obſcurer places clearer light.</l>
+               <l>When to St. <hi>Pauls</hi> among the Books it came,</l>
+               <l>Learn'd Authors, for to ſhun this dreadful flame,</l>
+               <l>To the magnifick Temple ſoon do flye</l>
+               <l>For Refuge, as their only Sanctuary:</l>
+               <l>Yet could not ſafety at the Altar find,</l>
+               <l>Though they had been like Saints themſelves inſhrin'd.</l>
+               <pb n="10" facs="tcp:47398:9"/>
+               <l>But thoſe Divines, which in St. <hi>Faiths</hi> were pent,</l>
+               <l>Seem'd as to Purgatory they were ſent:</l>
+               <l>Where ſometimes after, when the ſmother'd Fire</l>
+               <l>Was thought in its own
+<note n="b" place="bottom">
+                     <q>
+                        <hi>Ex obruto incendio, ſubita de cineribus flamma prodibat.</hi> 
+                        <bibl>Flor. lib. 2. cap. 15.</bibl>
+                     </q>
+                  </note> Embers to expire;</l>
+               <l>Receiving air, reviv'd and quickly fum'd,</l>
+               <l>So blaſted Faith, and all the Books conſum'd.</l>
+               <l>
+                  <hi>Pauls</hi> Temple rear'd on Faith, whoſe lofty Spire</l>
+               <l>Was once demoliſht by
+<note n="c" place="bottom">
+                     <q>
+                        <bibl>Dugdal. Hiſt.</bibl> 
+                        <hi>ubi exhibetur Pyramis Eccleſiae Paulina, qualis olim erat priuſquam e caelo tacta conflagraverat.</hi>
+                     </q>
+                  </note> Celeſtial Fire.</l>
+               <l>Like that once ſacred unto
+<note n="d" place="bottom">
+                     <q>
+                        <hi>Templum ſpei in fore Olitorio fulmiue tactum.</hi> 
+                        <bibl>Liv. lib. 23.</bibl>
+                     </q>
+                  </note> 
+                  <hi>Hope</hi> in <hi>Rome,</hi>
+               </l>
+               <l>Burnt by a fire, which did from Heaven come.</l>
+               <l>When to the Temple of <hi>Minerva</hi> came,</l>
+               <l>The <hi>Trojan</hi> Horſe, it ſoon began to flame.</l>
+               <l>When Horſes thus <hi>Pauls</hi> Temple once defile,</l>
+               <l>How ſoon becomes it then a flaming Pile?</l>
+               <l>For which Profaneneſs, well might heaven be urg'd,</l>
+               <l>To have it thus by Fire again be purg'd.</l>
+               <l>Once the Meſſias in a Manger lay,</l>
+               <l>Where th' Eaſtern Sages did him homage pay;</l>
+               <l>Whence ſome prophane ones thought he might be found</l>
+               <l>Still in a Stable, though with Glory crown'd.</l>
+               <l>Thoſe wilder Beaſts, to <hi>Epheſus</hi> once brought,</l>
+               <l>With which the Doctor of the Gentiles fought,</l>
+               <l>Did not <hi>Diana</hi>'s Temple ſo defile,</l>
+               <l>(Though it became ſo ſoon a burning Pile)</l>
+               <l>As thoſe beaſts ſtain the Temple of his Name,</l>
+               <l>That now doth periſh by as great a Flame.</l>
+               <pb n="11" facs="tcp:47398:9"/>
+               <l>Which though the diſmal Flames uncover'd thus,</l>
+               <l>Like that once ſacred unto
+<note n="d" place="bottom">
+                     <q>
+                        <hi>Termino non niſi ſub dio ſacrificabaetur.</hi> 
+                        <bibl>Serv. in Virg. Æn. 9.</bibl>
+                     </q>
+                     <q>
+                        <hi>In Capitolio prona pars tecti paret, quae lapidem ipſum Termini (ſive Tex<g ref="char:EOLhyphen"/>minum) ſpectat.</hi> 
+                        <bibl>Dempſt, in Ro. in. lib. 4. c. 6.</bibl>
+                     </q>
+                     <q>
+                        <hi>Templum in quo coliba<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ur Terminus, deſuper patens foramen habuit: Sic Ædes lovis Pulverii in Attica ſemper ſine tecto erigebatur.</hi> 
+                        <bibl>Alex. ab Alexand. lib. 2. c. 22.</bibl>
+                     </q>
+                  </note> 
+                  <hi>Termimus:</hi>
+               </l>
+               <l>Yet when they lookt down, toward the awful Quire,</l>
+               <l>And on the Altar ſpy'd more Sacred Fire.</l>
+               <l>They fear'd as 'twere to ſpread unhallowed heat;</l>
+               <l>O're th' Holy Altar, but with awe retreat.</l>
+               <l>So durſt not touch thoſe beauties, where Saints pray,</l>
+               <l>But ſtopt, and turn'd their courſe an other way.</l>
+               <l>To ſee which pile could not the Flames repel,</l>
+               <l>A ſhower of tears ſtraight from the Kings eys fell.</l>
+               <l>So <hi>Titus</hi> wept, as <hi>Salems</hi> Temple burn'd:</l>
+               <l>To ſee it's beauty thus to aſhes turn'd.</l>
+               <l>Not once like
+<note n="e" place="bottom">
+                     <q>
+                        <hi>Pervaſerat rumor ipſo tempore flagrantis urbis Neronem iuiſſe do<g ref="char:EOLhyphen"/>meſticam ſcenam, &amp; ceciniſſe Trojanum excidium.</hi> 
+                        <bibl>Tacit. 15. Anal.</bibl>
+                     </q>
+                  </note> 
+                  <hi>Nero,</hi> who ſang to his Lyre,</l>
+               <l>As he beheld Imperial <hi>Rome</hi> on fire;</l>
+               <l>Who ſinging, by his breath blew up the flame,</l>
+               <l>And made it more inſult, where e're it came.</l>
+               <l>For as the City burning he ſurvey'd,</l>
+               <l>The flames but friskt and danc'd to what he play'd.</l>
+               <l>Nor as when <hi>Pyrhus</hi> with a guſt of joy,</l>
+               <l>Beheld the Ruine once of flaming <hi>Troy:</hi>
+               </l>
+               <l>While
+<note n="f" place="bottom">
+                     <q>
+                        <l>— <hi>Moeſtiſſimus Hector.</hi>
+                        </l>
+                        <l>
+                           <hi>Viſus adeſſe mihi, largoſque effundere fletus.</hi>
+                        </l>
+                        <bibl>Virg.</bibl>
+                     </q>
+                  </note> 
+                  <hi>Hector</hi> wept, and old
+<note n="g" place="bottom">
+                     <q>
+                        <l>
+                           <hi>In coelo palmas cum voce tetendit,</hi>
+                        </l>
+                        <l>
+                           <hi>Iupiter omn<gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>potens praecibus ſi flecteris ullis,</hi>
+                        </l>
+                        <l>
+                           <hi>Aſpice nos.</hi>
+                        </l>
+                        <bibl>Idem.</bibl>
+                     </q>
+                  </note> 
+                  <hi>Anchiſes</hi> pray'd,</l>
+               <l>As thus their burning City they ſurvey'd.</l>
+               <l>While <hi>Troynovant</hi> thus burn'd, ſo pray'd our King,</l>
+               <l>That God would ſuccour to the City bring.</l>
+               <pb n="12" facs="tcp:47398:10"/>
+               <l>And may the Pious Tears of ſuch an Eye</l>
+               <l>Well expiate, when dropt from Majeſty.</l>
+               <l>Soon as they had a ſacred Vial fill'd,</l>
+               <l>They
+<note n="h" place="bottom">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> quencht, as they upon the flames diſtill'd.</l>
+               <l>Thus ſeem'd he like that Royal Lyrick, whiles</l>
+               <l>He wept, till God at laſt upon him ſmiles.</l>
+               <l>Whoſe ſacred tears were bottled up and kept</l>
+               <l>By Heaven it ſelf, as mov'd when the King wept.</l>
+               <l>The injur'd <hi>Greeks</hi> to Temples us'd to flye,</l>
+               <l>And ſacred Altars in Calamity.</l>
+               <l>But when this Fire, that from the Temple fumes,</l>
+               <l>Which th' Altar, and the Temple too conſumes.</l>
+               <l>Where ſhall we refuge ſeek, and pray? while thus,</l>
+               <l>Heaven takes the very Houſe of Prayer from us.</l>
+               <l>Th' unweary'd Flames, hence unto <hi>Chriſt-Church</hi> haſte,</l>
+               <l>Which ample and religious Pile they waſte.</l>
+               <l>Nor could the Buckets of its Sacred Quire,</l>
+               <l>Defend it now from this unhallow'd Fire.</l>
+               <l>No ſooner doth this ſacred Structure fall,</l>
+               <l>But th' agil Fire preys on the Hoſpital:</l>
+               <l>Which as the Orphans Coats firſt burns as blew,</l>
+               <l>Then bluſheth at the act it is to do:</l>
+               <l>Which checks it ſelf, as if 'twere loath to be,</l>
+               <l>The Ruine of this Work of Charity:</l>
+               <l>For Charity was not more warm of old,</l>
+               <l>Than in this worſer age it waxeth cold.</l>
+               <l>This place yet's ruin'd by no leſs a Flame,</l>
+               <l>Than that of Love, which firſt beſtow'd the ſame.</l>
+               <l>The Flames, though mercileſs to th' Orphans were,</l>
+               <l>To others after, yet more kind appear:
+<note place="bottom">
+                     <q>
+                        <hi>Graci moris fuit ad injuriam arcendam confugere ad Templa &amp; aras.</hi> 
+                        <bibl>Lipſ. in Tacit. p. 160.</bibl>
+                     </q>
+                  </note>
+               </l>
+               <pb n="13" facs="tcp:47398:10"/>
+               <l>Reaching to <hi>Newgate,</hi> there they ſoon ſet free</l>
+               <l>The Pris'ners by a Goal-delivery.</l>
+               <l>Themſelves at firſt, in leſſer room were pent,</l>
+               <l>Till growing ſtrong, refus'd Impriſonment,</l>
+               <l>Next, <hi>Sepulchres</hi> they with more Ruines fill,</l>
+               <l>And yet unweary'd, thence they climb <hi>Snow-Hill;</hi>
+               </l>
+               <l>Whoſe unſlackt ardors both deſpis'd its ſnow,</l>
+               <l>And colder Fountain at its foot below:</l>
+               <l>So burns <hi>Veſuvius,</hi> though the Sea its ſide</l>
+               <l>Doth waſh, and humid Clouds its head ſtill hide.</l>
+               <l>Dire <hi>Vulcan</hi> his own Manſion ſcarce yet burns,</l>
+               <l>But to one <hi>Smithfield</hi> the whole City turns:</l>
+               <l>And ruines all but Chimneys, his right place,</l>
+               <l>Soon as he did his proper bounds once paſs.</l>
+               <l>
+                  <hi>Priam</hi>'s ſtout Son among the <hi>Grecians</hi>
+                  <note n="a" place="bottom">— <hi>Jaculatus puppibus ignes.</hi>
+                  </note> caſt</l>
+               <l>Such Flames, that did their Ships at Anchor waſte:</l>
+               <l>Which ſeem'd but to precede that fatal Fire,</l>
+               <l>In which ſoon after <hi>Ilium</hi> did expire.</l>
+               <l>Thus might thoſe Flames prefage the like event,</l>
+               <l>Our Engliſh
+<note n="b" place="bottom">The burning of the Ships before <hi>Schelling.</hi>
+                  </note> 
+                  <hi>Hector</hi> to the <hi>Dutch</hi> Fleet ſent.</l>
+               <l>Which a more fatal Fire ſeem'd to foreſhow,</l>
+               <l>That ſhould no leſs rich <hi>London</hi> overthrow.</l>
+               <l>Th' Head of three Kingdoms thus to Fate doth bow,</l>
+               <l>Not cover'd vvith, but turnd to aſhes now:</l>
+               <l>Whoſe ſhatter'd Tovvers ſeem to th' obſerving eye,</l>
+               <l>Like thoſe of old <hi>Rome,</hi> vvhich in Ruines lie.</l>
+               <l>Whoſe Ports yet ſtanding, though defac'd, appear</l>
+               <l>By ſome old Characters, vvhat once they vvere.</l>
+               <l>Arches and rum'd Temples too are ſeen,</l>
+               <l>Whoſe Letters ſhevv, vvhat they before have been.</l>
+               <pb n="14" facs="tcp:47398:11"/>
+               <l>Thus thoſe Inſcription<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> on each ſtanding Gate,</l>
+               <l>Spell <hi>Londons</hi> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Pomp, but later Fate.</l>
+               <l>That ſtately Ship, <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> the Cities Name,</l>
+               <l>And periſht by an unexpected Flame;</l>
+               <l>Yet from her Aſhes <hi>Phoenix</hi>-like did ſpring.</l>
+               <l>Another <hi>Loyal London</hi> to the King.</l>
+               <l>Thus from our Rum'd City may ariſe,</l>
+               <l>Another, vvhoſe high Tovvers may urge the Skies.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
